@@ -76,7 +76,6 @@ public class Main {
         });
 
         Thread iteratorThread = new Thread(() -> {
-
             System.out.println("start");
             while (true) {
                 synchronized (EnhancedList.list) {
